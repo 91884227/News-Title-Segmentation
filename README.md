@@ -12,13 +12,13 @@ python news_segmentation.py FILENAME WORD_TO_WEIGHT LIMIT CUDA_VISIBLE_DEVICES G
 | CUDA_VISIBLE_DEVICES |  使用的gpu名稱| 0|
 | GPU_MEMORY_FRACTION |  gpu使用量的最高使用量 值須介於0到1| 0.7|
 
-執行完後即會輸出 ==FILENAME_ws.json== 和  ==FILENAME_POS.json==
+執行完後即會輸出 ```FILENAME_ws.json``` 和 ```FILENAME_POS.json```
 
 ## example
 ```
 python news_segmentation.py "katino_data_adjust.npy" "dictionary.txt" 1 0 0.7
 ```
-執行完後即會輸出 ==katino_data_adjust_ws.json== 和  ==katino_data_adjust.json==
+執行完後即會輸出 ```katino_data_adjust_ws.json``` 和  ```katino_data_adjust.json```
 
 ## Remark:
 要先將中研院斷詞[中研院斷詞](https://github.com/ckiplab/ckiptagger/wiki/Chinese-README)
